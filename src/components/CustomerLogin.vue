@@ -43,7 +43,7 @@
                         let customer = response.data;
                         console.log(customer);
                         this.$router.push({name: "customerLogin"})
-                        // this.message = response.message;
+                        this.message = response.message;
                     }
                 )
                 .catch(error => {
