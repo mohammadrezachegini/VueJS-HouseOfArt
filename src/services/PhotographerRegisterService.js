@@ -2,8 +2,8 @@ import http from '../http-common';
 
 
 class PhotographerLoginService {
-    login(data) {
-        return http.post('/photographerlogin', data);
+    register(data) {
+        return http.post('/customer', data);
     }
 }
 

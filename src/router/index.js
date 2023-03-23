@@ -1,8 +1,8 @@
 import { createWebHashHistory, createRouter } from "vue-router";
 
-import CustomerLogin from "../components/CustomerLogin.vue";
-import PhotographerLogin from "../components/PhotographerLogin.vue";
-
+import CustomerLogin from "@/components/CustomerLogin";
+import PhotographerLogin from "@/components/PhotographerLogin";
+import CustomerRegister from '@/components/CustomerRegister'
 
 
 
@@ -16,6 +16,11 @@ const routes = [
     path: "/photo",
     name: 'PhotographerLogin',
     component: PhotographerLogin
+  },
+  {
+    path: "/register",
+    name: 'CustomerRegister',
+    component: CustomerRegister
   }
 ]
 

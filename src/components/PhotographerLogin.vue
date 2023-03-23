@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h4>Login photographer</h4>
+        <h4> photographer</h4>
         <form action="">
             <div>
                 <label for="username">Username</label>
